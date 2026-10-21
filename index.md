@@ -1,6 +1,6 @@
 # Fintra Privacy Policy
 
-_Last updated: 19 October 2026_ · _Contact: **fintra.studio@gmail.com**_
+_Last updated: 21 October 2026_ · _Contact: **fintra.studio@gmail.com**_
 
 Fintra ("the app") is a personal budget and expense tracker. This policy explains what data the app handles and where it goes.
 
@@ -19,7 +19,7 @@ Fintra ("the app") is a personal budget and expense tracker. This policy explain
 **Notifications:** if you enable payment reminders, the app asks for notification permission and schedules local notifications on your device. Nothing is sent to a server.
 
 ## Google Drive backup (optional)
-If you choose to sign in with Google, Fintra stores a copy of your data in your own Google Drive, in the hidden **application data folder** that only Fintra can access. This lets you keep several of your devices in sync and restore your data on a new device. We (the developer) cannot see, access or download this data. Google's handling of it is governed by Google's Privacy Policy. Fintra requests only the Drive app-data permission and your sign-in identity needed to connect; it does not read your other Drive files.
+If you choose to sign in with Google, Fintra stores a copy of your data in your own Google Drive, in the hidden **application data folder** that only Fintra can access. The copy contains the data listed above: your financial records, categories, budgets and notes, your profile (name, date of birth, budget period day), your preferences, and your profile photo if you added one; Fintra also uses the email address of the Google account you sign in with to connect. This lets you keep several of your devices in sync and restore your data on a new device. We (the developer) cannot see, access or download this data. Google's handling of it is governed by Google's Privacy Policy. Fintra requests only the Drive app-data permission and your sign-in identity needed to connect; it does not read your other Drive files.
 
 You can stop syncing by signing out in the app, and delete the backup by removing Fintra's app data in your Google Account settings (Security → Third-party apps with account access).
 
