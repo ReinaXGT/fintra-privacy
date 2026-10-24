@@ -1,13 +1,14 @@
 # Fintra Privacy Policy
 
-_Last updated: 21 October 2026_ · _Contact: **fintra.studio@gmail.com**_
+_Last updated: 24 October 2026_ · _Contact: **fintra.studio@gmail.com**_
 
 Fintra ("the app") is a personal budget and expense tracker. This policy explains what data the app handles and where it goes.
 
 ## Summary
 - Your budget data stays **on your device**, encrypted.
 - We run **no server**, have **no accounts**, show **no ads** and use **no analytics or tracking**.
-- Data leaves your device only if **you** turn on Google Drive backup, or export a backup file yourself.
+- If the app crashes, it sends an **anonymous crash report** (no budget data) so we can fix the problem.
+- Your budget data leaves your device only if **you** turn on Google Drive backup, or export a backup file yourself.
 
 ## Data the app handles
 **Financial data you enter:** income, expenses, categories, budgets, goals, notes and dates, plus the profile answers from onboarding (such as monthly income and savings percentage). It is stored locally in an encrypted database; the encryption key is held in the Android Keystore.
@@ -18,6 +19,9 @@ Fintra ("the app") is a personal budget and expense tracker. This policy explain
 
 **Notifications:** if you enable payment reminders, the app asks for notification permission and schedules local notifications on your device. Nothing is sent to a server.
 
+## Crash reports
+If the app crashes, it sends a crash report to Google Firebase Crashlytics so we can find and fix the problem. The report contains the technical error and the state of the app at that moment, your device model and Android version, the app version, and a randomly generated installation ID. It does **not** contain your income, expenses, categories, notes, profile answers, photos or Google account. It is not used for advertising or tracking. Reports are processed by Google on our behalf under the [Firebase privacy terms](https://firebase.google.com/support/privacy) and are kept for a limited time (90 days).
+
 ## Google Drive backup (optional)
 If you choose to sign in with Google, Fintra stores a copy of your data in your own Google Drive, in the hidden **application data folder** that only Fintra can access. The copy contains the data listed above: your financial records, categories, budgets and notes, your profile (name, date of birth, budget period day), your preferences, and your profile photo if you added one; Fintra also uses the email address of the Google account you sign in with to connect. This lets you keep several of your devices in sync and restore your data on a new device. We (the developer) cannot see, access or download this data. Google's handling of it is governed by Google's Privacy Policy. Fintra requests only the Drive app-data permission and your sign-in identity needed to connect; it does not read your other Drive files.
 
@@ -27,7 +31,7 @@ You can stop syncing by signing out in the app, and delete the backup by removin
 The JSON backup you export is a plain, readable file saved where you choose or shared through an app you choose. Keep it somewhere safe; it is not encrypted.
 
 ## Sharing
-We do not sell, rent or share your data with anyone. The only third parties involved are Google (Drive, only if you enable it; ML Kit, which runs on-device) and Google Play (installing the app, and purchases if a paid plan is offered in the future).
+We do not sell, rent or share your data with anyone. The only third parties involved are Google (Drive, only if you enable it; ML Kit, which runs on-device; Firebase Crashlytics for crash reports) and Google Play (installing the app, and purchases if a paid plan is offered in the future).
 
 ## Retention and deletion
 Data stays on your device until you delete it. Uninstalling the app removes local data. In the app you can delete individual records or restart onboarding to erase everything locally. Drive backup data is removed as described above.
